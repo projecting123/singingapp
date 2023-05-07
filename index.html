@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Tailwind CSS</title>
+  <link rel="stylesheet" href="assets/index-98c8bae9.css">
+</head>
+
+<body>
+    <header class="flex justify-between bg-slate-600 text-white">
+        <div class="flex item-center">
+            <div class="">
+                <img src="assets/logo-5c4291a0.png" alt="" class="w-14 h-14">
+            </div>
+            <nav class="flex items-center">
+                <ul class="flex gap-3 font-semibold">
+                    <li><a href="#" class="hover:text-purple-600 duration-150">Home</a></li>
+                    <li><a href="#" class="hover:text-purple-600 duration-150">Trending</a></li>
+                    <li><a href="#" class="hover:text-purple-600 duration-150">Upload</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="flex items-center pr-3">
+            <ul class="flex gap-6">
+                <li><a href="#" class="hover:text-red-500">
+                        <i class="fa-regular fa-bell fa-lg transform hover:scale-125 duration-150"></i>
+                    </a></li>
+                <li><a href="#" class="hover:text-purple-600 font-semibold">Log in</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bg-[url(assets/body-2ee813d0.png)] bg-cover bg-no-repeat h-screen flex justify-center">
+        <div class="flex gap-24 justify-center items-center">
+            <div class="flex flex-col items-center gap-6 rounded-md p-4">
+                <div class="relative font-extrabold">
+                    <div
+                        class="relative z-10 text-6xl bg-gradient-to-r from-purple-600 to-cyan-500 bg-clip-text text-transparent leading-relaxed">
+                        Singing Star</div>
+                    <div
+                        class="absolute z-0 border-2 border-green-500 w-36 h-16 top-6 -right-4 transform skew-x-12 skew-y-6">
+                    </div>
+                </div>
+                <div class="relative">
+                    <input type="search" name="" id="" placeholder="Search your favourite songs..."
+                        class="px-12 py-3 rounded-full outline-none w-96">
+                    <div class="absolute top-3 left-3 opacity-60">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="font-lobster text-5xl">Offering best song recording to singer with awesome effects</p>
+                <button type="button"
+                    class="self-center border-2 border-green-200 py-1 px-2 bg-gradient-to-r from-green-400 to-blue-500 rounded-lg font-bold hover:from-green-500 hover:to-blue-600 transform active:scale-90 duration-150 shadow-md">Learn
+                    more</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-6 bg-gradient-to-tr from-indigo-500 to-fuchsia-400">
+        <p class="text-4xl text-center font-bold pt-4 pb-12">Artists:</p>
+        <div class="grid grid-cols-3 justify-items-center">
+            <div class="flex gap-6 items-center">
+                <div>
+                    <img src="assets/arijit-singh-7860a994.jpg" alt="" class="h-48 w-36 rounded-md">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold pb-3 font-castoro">Arijit Singh</h1>
+                    <div class="flex gap-4">
+                        <ul class="leading-7">
+                            <li><a href="#">Roke na ruke naina</a></li>
+                            <li><a href="#">Bolna mahi bolna</a></li>
+                            <li><a href="#">Hawaayein</a></li>
+                            <li><a href="#">Bandeya</a></li>
+                        </ul>
+                        <div class="flex gap-3">
+                            <ul class="leading-7">
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                            </ul>
+                            <ul class="leading-7">
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex gap-6 items-center">
+                <div>
+                    <img src="assets/kumar-sanu-9780d645.jpg" alt="" class="h-48 w-36 rounded-md">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold pb-3 font-castoro">Kumar Sanu</h1>
+                    <div class="flex gap-4">
+                        <ul class="leading-7">
+                            <li>Roke na ruke naina<a href="#"></a></li>
+                            <li><a href="#">Bolna mahi bolna</a></li>
+                            <li><a href="#">Hawaayein</a></li>
+                            <li><a href="#">Bandeya</a></li>
+                        </ul>
+                        <div class="flex gap-3">
+                            <ul class="leading-7">
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                            </ul>
+                            <ul class="leading-7">
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex gap-6 items-center">
+                <div>
+                    <img src="assets/alka-yagnik-9b04a91d.jpg" alt="" class="h-48 w-36 rounded-md">
+                </div>
+                <div>
+                    <h1 class="text-2xl font-semibold pb-3 font-castoro">Alka Yagnik</h1>
+                    <div class="flex gap-4">
+                        <ul class="leading-7">
+                            <li><a href="#">Roke na ruke naina</a></li>
+                            <li><a href="#">Bolna mahi bolna</a></li>
+                            <li><a href="#">Hawaayein</a></li>
+                            <li><a href="#">Bandeya</a></li>
+                        </ul>
+                        <div class="flex gap-3">
+                            <ul class="leading-7">
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                                <li><a href="#"><i class="fa-solid fa-play"></i></a></li>
+                            </ul>
+                            <ul class="leading-7">
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                                <li><a href=""><i class="fa-solid fa-microphone"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="flex justify-center py-4 bg-green-300">
+        <footer class="flex gap-10 font-inter">
+            <div>
+                &copy;2023-All rights reserved with Ankur Rajbongshi
+            </div>
+            <div>
+                <div>
+                    <p>Contact Us</p>
+                </div>
+                <div>
+                    <ul class="flex gap-3">
+                        <li><a href="https://github.com/projecting123"><i class="fa-brands fa-github"
+                                    style="color: #171515;"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/ankur-rajbongshi-bbb09926b"><i
+                                    class="fa-brands fa-linkedin" style="color: #0072b1;"></i></a></li>
+                        <li><a href="https://twitter.com/webdevankur"><i class="fa-brands fa-twitter"
+                                    style="color: #1daaf2;"></i></a></li>
+                        <li><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </section>
+</body>
+
+</html>
